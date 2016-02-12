@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.image{
+  height: 700px;
+  width: 100%;
+  background: #55e6c5;
+  z-index: 1;
+  padding-top: 100px;
+}
+.content{
+  height: 750px;
+  width: 100%;
+  background: white;
+  z-index: 2;
+}
+#home{
+  background:url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg') repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#about{
+  background:url('https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg') repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#portfolio{
+  background:url('https://41.media.tumblr.com/92e61775d4c3edcc5145936e3703d125/tumblr_nt5uo9fH9y1ud7rr3o1_1280.jpg') repeat;
+  background-attachment: fixed;
+  height: 800px;
+  background-size: cover;
+}
+#contact{
+  background:url('https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg') repeat;
+  background-attachment: fixed;
+  height: 650px;
+  background-size: cover;
+}
+.page-header h1{
+     -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    font-size: 50px;
+}
+
+#list-contact li{
+    list-style: none;
+    padding: 10px;
+}
+.textbox-to-description{
+    background-color: aliceblue;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.66);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.66);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.66);
+}
+.textbox-to-description h1{
+       -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    font-size: 50px;
+}
+.name-connect{
+   background-color: aliceblue;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.66);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.66);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.66);
+    
+}
+
